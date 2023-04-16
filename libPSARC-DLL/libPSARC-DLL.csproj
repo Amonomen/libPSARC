@@ -60,7 +60,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <PackageReference Include="zlib.net">
+      <Version>1.0.4</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="..\libPSARC-Static\libPSARC-Static.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
